@@ -1,0 +1,98 @@
+﻿@charset "utf-8";
+
+/* BANER DE ESTADO DE LA DB */
+#dbEstado {
+    padding: 15px;
+    margin: 1px 0px;
+    color: white;
+    background-color: #38e20a;
+}
+
+    #dbEstado p {
+        text-align: center;
+    }
+    /* CONTENEDOR DE ABM DE PERFILES USUARIO */
+    #abmUser {
+        padding: 5px 0px;
+    }
+
+    #abmUser p {
+        text-align: left;
+        font-family: arial, sans-serif;
+    }
+/* TABLA DE INFORMACION SOBRE LA TABLA BITACORA */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+/* CONTENEDOR DE BOTONERA DE ACCIONES DE BACKUP  Y DEBUG DE ARQ.BASE*/
+#admBackup p {
+    text-align: left;
+    font-family: arial, sans-serif;
+}
+
+#admDebug p {
+    text-align: left;
+    font-family: arial, sans-serif;
+}
+
+/* BOTONERA DE ACCIONES DE BACKUP */
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.success {
+    background: #4CAF50;
+}
+    /* Green */
+    .success:hover {
+        background: #46a049;
+    }
+
+.info {
+    background: #2196F3;
+}
+    /* Blue */
+    .info:hover {
+        background: #0b7dda;
+    }
+
+.warning {
+    background: #ff9800;
+}
+    /* Orange */
+    .warning:hover {
+        background: #e68a00;
+    }
+
+.danger {
+    background: #f44336;
+}
+    /* Red */
+    .danger:hover {
+        background: #da190b;
+    }
+
+.default {
+    background: #e7e7e7;
+    color: black;
+}
+    /* Gray */
+    .default:hover {
+        background: #ddd;
+    }

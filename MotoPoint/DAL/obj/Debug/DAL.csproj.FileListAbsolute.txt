@@ -1,0 +1,11 @@
+C:\Users\B042921\Desktop\wks\MotoPoint\DAL\bin\Debug\DAL.dll
+C:\Users\B042921\Desktop\wks\MotoPoint\DAL\bin\Debug\DAL.pdb
+C:\Users\B042921\Desktop\wks\MotoPoint\DAL\bin\Debug\BE.dll
+C:\Users\B042921\Desktop\wks\MotoPoint\DAL\bin\Debug\EL.dll
+C:\Users\B042921\Desktop\wks\MotoPoint\DAL\bin\Debug\BE.pdb
+C:\Users\B042921\Desktop\wks\MotoPoint\DAL\bin\Debug\EL.pdb
+C:\Users\B042921\Desktop\wks\MotoPoint\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\B042921\Desktop\wks\MotoPoint\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\B042921\Desktop\wks\MotoPoint\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\B042921\Desktop\wks\MotoPoint\DAL\obj\Debug\DAL.dll
+C:\Users\B042921\Desktop\wks\MotoPoint\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,6 @@
+C:\Users\B042921\Desktop\wks\MotoPoint\EL\bin\Debug\EL.dll
+C:\Users\B042921\Desktop\wks\MotoPoint\EL\bin\Debug\EL.pdb
+C:\Users\B042921\Desktop\wks\MotoPoint\EL\obj\Debug\EL.csprojResolveAssemblyReference.cache
+C:\Users\B042921\Desktop\wks\MotoPoint\EL\obj\Debug\EL.csproj.CoreCompileInputs.cache
+C:\Users\B042921\Desktop\wks\MotoPoint\EL\obj\Debug\EL.dll
+C:\Users\B042921\Desktop\wks\MotoPoint\EL\obj\Debug\EL.pdb

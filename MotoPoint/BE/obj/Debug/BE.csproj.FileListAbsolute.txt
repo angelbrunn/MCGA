@@ -1,0 +1,6 @@
+C:\Users\B042921\Desktop\wks\MotoPoint\BE\bin\Debug\BE.dll
+C:\Users\B042921\Desktop\wks\MotoPoint\BE\bin\Debug\BE.pdb
+C:\Users\B042921\Desktop\wks\MotoPoint\BE\obj\Debug\BE.csprojResolveAssemblyReference.cache
+C:\Users\B042921\Desktop\wks\MotoPoint\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\B042921\Desktop\wks\MotoPoint\BE\obj\Debug\BE.dll
+C:\Users\B042921\Desktop\wks\MotoPoint\BE\obj\Debug\BE.pdb

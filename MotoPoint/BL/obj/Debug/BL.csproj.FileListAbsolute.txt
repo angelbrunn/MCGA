@@ -1,0 +1,11 @@
+C:\Users\B042921\Desktop\wks\MotoPoint\BL\bin\Debug\BL.dll
+C:\Users\B042921\Desktop\wks\MotoPoint\BL\bin\Debug\BL.pdb
+C:\Users\B042921\Desktop\wks\MotoPoint\BL\bin\Debug\BE.dll
+C:\Users\B042921\Desktop\wks\MotoPoint\BL\bin\Debug\EL.dll
+C:\Users\B042921\Desktop\wks\MotoPoint\BL\bin\Debug\BE.pdb
+C:\Users\B042921\Desktop\wks\MotoPoint\BL\bin\Debug\EL.pdb
+C:\Users\B042921\Desktop\wks\MotoPoint\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\B042921\Desktop\wks\MotoPoint\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\B042921\Desktop\wks\MotoPoint\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\B042921\Desktop\wks\MotoPoint\BL\obj\Debug\BL.dll
+C:\Users\B042921\Desktop\wks\MotoPoint\BL\obj\Debug\BL.pdb
