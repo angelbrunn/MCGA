@@ -13,13 +13,13 @@ namespace MotoPoint {
     public partial class login {
         
         /// <summary>
-        /// Control form1.
+        /// Control formLogin.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm formLogin;
         
         /// <summary>
         /// Control txtUsuario.
@@ -40,6 +40,15 @@ namespace MotoPoint {
         protected global::System.Web.UI.WebControls.TextBox txtContrasenia;
         
         /// <summary>
+        /// Control btnLogin.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnLogin;
+        
+        /// <summary>
         /// Control linkRegistrarse.
         /// </summary>
         /// <remarks>
@@ -56,14 +65,5 @@ namespace MotoPoint {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton linkRecordar;
-        
-        /// <summary>
-        /// Control btnLogin.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLogin;
     }
 }

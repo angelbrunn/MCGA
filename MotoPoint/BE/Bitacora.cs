@@ -85,5 +85,23 @@ namespace SIS.ENTIDAD
                 descripcionField = value;
             }
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        private string digitoVerificador;
+        /// <summary>
+        /// 
+        /// </summary>
+        public string DigitoVerificador
+        {
+            get
+            {
+                return digitoVerificador;
+            }
+            set
+            {
+                digitoVerificador = value;
+            }
+        }
     }
 }

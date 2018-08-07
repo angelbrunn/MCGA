@@ -49,22 +49,22 @@ namespace MotoPoint {
         protected global::System.Web.UI.WebControls.LinkButton LinkHome;
         
         /// <summary>
-        /// Control Table1.
+        /// Control linkContingencia.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Table Table1;
+        protected global::System.Web.UI.WebControls.LinkButton linkContingencia;
         
         /// <summary>
-        /// Control lblBitacora.
+        /// Control tbBitacora.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblBitacora;
+        protected global::System.Web.UI.WebControls.Table tbBitacora;
         
         /// <summary>
         /// Control chkbxBitacora.
@@ -73,16 +73,7 @@ namespace MotoPoint {
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton chkbxBitacora;
-        
-        /// <summary>
-        /// Control lblUsuario.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblUsuario;
+        protected global::System.Web.UI.WebControls.CheckBox chkbxBitacora;
         
         /// <summary>
         /// Control chkbxUsuario.
@@ -91,16 +82,7 @@ namespace MotoPoint {
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton chkbxUsuario;
-        
-        /// <summary>
-        /// Control lblGrupo.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblGrupo;
+        protected global::System.Web.UI.WebControls.CheckBox chkbxUsuario;
         
         /// <summary>
         /// Control chkbxGrupo.
@@ -109,16 +91,7 @@ namespace MotoPoint {
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton chkbxGrupo;
-        
-        /// <summary>
-        /// Control lblGrupoPermiso.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblGrupoPermiso;
+        protected global::System.Web.UI.WebControls.CheckBox chkbxGrupo;
         
         /// <summary>
         /// Control chkbxGrupoPermiso.
@@ -127,16 +100,7 @@ namespace MotoPoint {
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton chkbxGrupoPermiso;
-        
-        /// <summary>
-        /// Control lblPermiso.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPermiso;
+        protected global::System.Web.UI.WebControls.CheckBox chkbxGrupoPermiso;
         
         /// <summary>
         /// Control chkbxPermiso.
@@ -145,16 +109,7 @@ namespace MotoPoint {
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton chkbxPermiso;
-        
-        /// <summary>
-        /// Control lblMultiIdioma.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMultiIdioma;
+        protected global::System.Web.UI.WebControls.CheckBox chkbxPermiso;
         
         /// <summary>
         /// Control chkbxMultiIdioma.
@@ -163,16 +118,7 @@ namespace MotoPoint {
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton chkbxMultiIdioma;
-        
-        /// <summary>
-        /// Control lblUsuarioGrupo.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblUsuarioGrupo;
+        protected global::System.Web.UI.WebControls.CheckBox chkbxMultiIdioma;
         
         /// <summary>
         /// Control chkbxUsuarioGrupo.
@@ -181,7 +127,7 @@ namespace MotoPoint {
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton chkbxUsuarioGrupo;
+        protected global::System.Web.UI.WebControls.CheckBox chkbxUsuarioGrupo;
         
         /// <summary>
         /// Control btnExportar.

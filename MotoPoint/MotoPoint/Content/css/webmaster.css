@@ -16,10 +16,11 @@
         padding: 5px 0px;
     }
 
-    #abmUser p {
-        text-align: left;
-        font-family: arial, sans-serif;
-    }
+        #abmUser p {
+            text-align: left;
+            font-family: arial, sans-serif;
+        }
+
 /* TABLA DE INFORMACION SOBRE LA TABLA BITACORA */
 table {
     font-family: arial, sans-serif;
@@ -96,3 +97,41 @@ tr:nth-child(even) {
     .default:hover {
         background: #ddd;
     }
+
+
+/* CONFIGURACION DE LA TABLA DE ERRORES CRITICOS */
+.LogSystemView {
+    border: 2px black;
+    min-width: 80%;
+}
+
+    .LogSystemView td {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .LogSystemView th {
+        padding: 5px;
+    }
+
+    .LogSystemView tr:hover {
+        background-color: #ff9800;
+    }
+
+    .LogSystemView th {
+        background-color: #3c3333;
+        color: white;
+        font-weight: 400;
+        text-align:center;
+    }
+
+.SistemaLogHeader {
+    font-family: arial, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.SistemaLogContenido {
+    margin: 10px;
+}

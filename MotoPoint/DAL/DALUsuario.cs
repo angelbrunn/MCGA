@@ -34,8 +34,6 @@ namespace SIS.DATOS
             }
             return ultimoId;
         }
-
-        /*
         /// <summary>
         ///         ''' 
         ///         ''' </summary>
@@ -435,6 +433,6 @@ namespace SIS.DATOS
             {
                 throw new EL.SIS.EXCEPCIONES.DALExcepcion(ex.Message);
             }
-        }*/
+        }
     }
 }

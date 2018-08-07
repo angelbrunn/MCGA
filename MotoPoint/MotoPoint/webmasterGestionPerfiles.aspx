@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="adminGestionPerfiles.aspx.cs" 
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="webmasterGestionPerfiles.aspx.cs" 
     Inherits="MotoPoint.AdminGestionPerfiles" %>
 
 <!DOCTYPE html>
@@ -11,7 +11,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            adminGestionPerfiles!
+            Administracion y gestion perfiles!
         </div>
     </form>
 </body>
