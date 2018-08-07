@@ -4,3 +4,8 @@ C:\Users\B042921\Desktop\wks\MotoPoint\BE\obj\Debug\BE.csprojResolveAssemblyRefe
 C:\Users\B042921\Desktop\wks\MotoPoint\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
 C:\Users\B042921\Desktop\wks\MotoPoint\BE\obj\Debug\BE.dll
 C:\Users\B042921\Desktop\wks\MotoPoint\BE\obj\Debug\BE.pdb
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\BE\bin\Debug\BE.dll
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\BE\bin\Debug\BE.pdb
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\BE\obj\Debug\BE.dll
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\BE\obj\Debug\BE.pdb

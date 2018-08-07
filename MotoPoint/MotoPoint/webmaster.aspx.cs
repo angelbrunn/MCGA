@@ -12,19 +12,19 @@ namespace MotoPoint
         /// <summary>
         /// 
         /// </summary>
-        BLL.SIS.BUSINESS.INegMultiUsuario interfazNegocioUsuario = new BLL.SIS.BUSINESS.NegMultiUsuario();
+        SIS.BUSINESS.INegMultiUsuario interfazNegocioUsuario = new SIS.BUSINESS.NegMultiUsuario();
         /// <summary>
         /// 
         /// </summary>
-        BLL.SIS.BUSINESS.INegBitacora interfazNegocioBitacora = new BLL.SIS.BUSINESS.NegBitacora();
+        SIS.BUSINESS.INegBitacora interfazNegocioBitacora = new SIS.BUSINESS.NegBitacora();
         /// <summary>
         /// 
         /// </summary>
-        BLL.SIS.BUSINESS.INegBackup interfazNegocioBackup = new BLL.SIS.BUSINESS.NegBackup();
+        SIS.BUSINESS.INegBackup interfazNegocioBackup = new SIS.BUSINESS.NegBackup();
         /// <summary>
         /// 
         /// </summary>
-        List<BE.SIS.ENTIDAD.Bitacora> listBitacora = new List<BE.SIS.ENTIDAD.Bitacora>();
+        List<SIS.ENTIDAD.Bitacora> listBitacora = new List<SIS.ENTIDAD.Bitacora>();
         /// <summary>
         /// 
         /// </summary>
@@ -45,9 +45,9 @@ namespace MotoPoint
                 bool resultadoConsistenciaBitacora = false;
 
                 // 1 - VERIFICO CONSISTENCIA DE LA BASE DE DATOS POR MEDIO DEL DIGITO VERIFICADOR - TABLA USUARIOS| FALSE:ERROR / TRUE:ISOK
-                resultadoConsistenciaUsuarios = interfazNegocioUsuario.verificarConsistenciaUsuarioBD();
+                //resultadoConsistenciaUsuarios = interfazNegocioUsuario.verificarConsistenciaUsuarioBD();
                 // 1 - VERIFICO CONSISTENCIA DE LA BASE DE DATOS POR MEDIO DEL DIGITO VERIFICADOR - TABLA USUARIOS| FALSE:ERROR / TRUE:ISOK
-                resultadoConsistenciaBitacora = interfazNegocioBitacora.verificarConsistenciaBD();
+                //resultadoConsistenciaBitacora = interfazNegocioBitacora.verificarConsistenciaBD();
 
                 if (resultadoConsistenciaUsuarios == false || resultadoConsistenciaBitacora == false)
                 {
@@ -108,7 +108,7 @@ namespace MotoPoint
             TableCell CellDescripcion;
             TableCell CellFecha;
 
-            foreach (BE.SIS.ENTIDAD.Bitacora _bitacora in listBitacora)
+            foreach (SIS.ENTIDAD.Bitacora _bitacora in listBitacora)
             {
                 row = new TableRow();
                 CellIdEvento = new TableCell();
@@ -116,10 +116,10 @@ namespace MotoPoint
                 CellDescripcion = new TableCell();
                 CellFecha = new TableCell();
 
-                CellIdEvento.Text = _bitacora.idEvento.ToString();
-                CellIdUsuario.Text = _bitacora.idUsuario.ToString();
-                CellDescripcion.Text = _bitacora.descripcion;
-                CellFecha.Text = _bitacora.fecha.ToString();
+                CellIdEvento.Text = _bitacora.IdEvento.ToString();
+                CellIdUsuario.Text = _bitacora.IdUsuario.ToString();
+                CellDescripcion.Text = _bitacora.Descripcion;
+                CellFecha.Text = _bitacora.Fecha.ToString();
 
                 if (CellIdEvento.Text != "1")
                 {
@@ -237,7 +237,7 @@ namespace MotoPoint
             catch (Exception ex)
             {
                 validarExportar = false;
-                new EL.SIS.EXCEPCIONES.UIExcepcion(ex.Message);
+                new SIS.EXCEPCIONES.UIExcepcion(ex.Message);
             }
 
             if (!(chkbxBitacora.Checked || chkbxUsuario.Checked || chkbxGrupo.Checked || chkbxGrupoPermiso.Checked || chkbxPermiso.Checked || chkbxMultiIdioma.Checked || chkbxUsuarioGrupo.Checked))
@@ -319,7 +319,7 @@ namespace MotoPoint
             catch (Exception ex)
             {
                 validarImportar = false;
-                new EL.SIS.EXCEPCIONES.UIExcepcion(ex.Message);
+                new SIS.EXCEPCIONES.UIExcepcion(ex.Message);
             }
 
             if (!(chkbxBitacora.Checked || chkbxUsuario.Checked || chkbxGrupo.Checked || chkbxGrupoPermiso.Checked || chkbxPermiso.Checked || chkbxMultiIdioma.Checked || chkbxUsuarioGrupo.Checked))
@@ -345,26 +345,26 @@ namespace MotoPoint
             //##### USUARIO A PERSISTIR #####
             string usuarioIdSession = Session["UsuarioId"].ToString();
             //##### OBJETOS A PERSISTIR #####
-            BE.SIS.ENTIDAD.Bitacora oBitacora_DAL = new BE.SIS.ENTIDAD.Bitacora();
-            BE.SIS.ENTIDAD.Bitacora oBitacora_IO = new BE.SIS.ENTIDAD.Bitacora();
-            BE.SIS.ENTIDAD.Bitacora oBitacora_BLL = new BE.SIS.ENTIDAD.Bitacora();
-            BE.SIS.ENTIDAD.Bitacora oBitacora_BKP = new BE.SIS.ENTIDAD.Bitacora();
-            BE.SIS.ENTIDAD.Bitacora oBitacora_SEG = new BE.SIS.ENTIDAD.Bitacora();
-            BE.SIS.ENTIDAD.Bitacora oBitacora_UI = new BE.SIS.ENTIDAD.Bitacora();
+            SIS.ENTIDAD.Bitacora oBitacora_DAL = new SIS.ENTIDAD.Bitacora();
+            SIS.ENTIDAD.Bitacora oBitacora_IO = new SIS.ENTIDAD.Bitacora();
+            SIS.ENTIDAD.Bitacora oBitacora_BLL = new SIS.ENTIDAD.Bitacora();
+            SIS.ENTIDAD.Bitacora oBitacora_BKP = new SIS.ENTIDAD.Bitacora();
+            SIS.ENTIDAD.Bitacora oBitacora_SEG = new SIS.ENTIDAD.Bitacora();
+            SIS.ENTIDAD.Bitacora oBitacora_UI = new SIS.ENTIDAD.Bitacora();
             //##### EDITO UN MENSAJE PARA UNA EXCEPCION DE TEST #####
-            oBitacora_DAL.descripcion = "Probando desde depuracion,insercion de Trazas.";
-            oBitacora_IO.descripcion = "Probando desde depuracion,insercion de Trazas.";
-            oBitacora_BLL.descripcion = "Probando desde depuracion,insercion de Trazas.";
-            oBitacora_BKP.descripcion = "Probando desde depuracion,insercion de Trazas.";
-            oBitacora_SEG.descripcion = "Probando desde depuracion,insercion de Trazas.";
-            oBitacora_UI.descripcion = "Probando desde depuracion,insercion de Trazas.";
+            oBitacora_DAL.Descripcion = "Probando desde depuracion,insercion de Trazas.";
+            oBitacora_IO.Descripcion = "Probando desde depuracion,insercion de Trazas.";
+            oBitacora_BLL.Descripcion = "Probando desde depuracion,insercion de Trazas.";
+            oBitacora_BKP.Descripcion = "Probando desde depuracion,insercion de Trazas.";
+            oBitacora_SEG.Descripcion = "Probando desde depuracion,insercion de Trazas.";
+            oBitacora_UI.Descripcion = "Probando desde depuracion,insercion de Trazas.";
             //##### CONSTRUYO LA EXCEPCION DE TEST SEGUN TIPO DE EXCEPCION #####
-            var exc_DAL = new EL.SIS.EXCEPCIONES.DALExcepcion(oBitacora_DAL.descripcion);
-            var exc_IO = new EL.SIS.EXCEPCIONES.IOException(oBitacora_IO.descripcion);
-            var exc_BLL = new EL.SIS.EXCEPCIONES.BLLExcepcion(oBitacora_BLL.descripcion);
-            var exc_BKP = new EL.SIS.EXCEPCIONES.BKPException(oBitacora_BKP.descripcion);
-            var exc_SEG = new EL.SIS.EXCEPCIONES.SEGExcepcion(oBitacora_SEG.descripcion);
-            var exc_UI = new EL.SIS.EXCEPCIONES.UIExcepcion(oBitacora_UI.descripcion);
+            var exc_DAL = new SIS.EXCEPCIONES.DALExcepcion(oBitacora_DAL.Descripcion);
+            var exc_IO = new SIS.EXCEPCIONES.IOException(oBitacora_IO.Descripcion);
+            var exc_BLL = new SIS.EXCEPCIONES.BLLExcepcion(oBitacora_BLL.Descripcion);
+            var exc_BKP = new SIS.EXCEPCIONES.BKPException(oBitacora_BKP.Descripcion);
+            var exc_SEG = new SIS.EXCEPCIONES.SEGExcepcion(oBitacora_SEG.Descripcion);
+            var exc_UI = new SIS.EXCEPCIONES.UIExcepcion(oBitacora_UI.Descripcion);
             //##### EJECUTO TRAZA VIA BLL SEGUN TIPO DE EXCP QUE CORRESPONDA #####
             interfazNegocioBitacora.registrarEnBitacora_BKP(usuarioIdSession, exc_BKP);
 

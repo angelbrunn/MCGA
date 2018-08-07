@@ -12,7 +12,7 @@ namespace SIS.ESCRITURA
         /// 
         /// </summary>
         /// <param name="oBitacora"></param>
-        public void registrarEnBitacoraIO(SIS.ENTIDAD.Bitacora oBitacora)
+        public void RegistrarEnBitacoraIO(SIS.ENTIDAD.Bitacora oBitacora)
         {
             string delimitador = ";";
             string ruta = @"C:\Logs MotoPoint\log.csv";
@@ -33,6 +33,7 @@ namespace SIS.ESCRITURA
             }
             catch (Exception ex)
             {
+                throw new SIS.EXCEPCIONES.IOException(ex.Message);
             }
         }
     }

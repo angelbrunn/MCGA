@@ -13,7 +13,7 @@ namespace MotoPoint
         /// <summary>
         /// 
         /// </summary>
-        BLL.SIS.BUSINESS.INegBitacora interfazNegocioBitacora = new BLL.SIS.BUSINESS.NegBitacora();
+        SIS.BUSINESS.INegBitacora interfazNegocioBitacora = new SIS.BUSINESS.NegBitacora();
         /// <summary>
         /// 
         /// </summary>
@@ -30,7 +30,7 @@ namespace MotoPoint
             {
                 // ARQ.BASE - GESTION DE BITACORA
                 // 1 - BUSCO DATOS DE LOS ERRORES CRITICOS DEL SISTEMA
-                this.GridViewLogSystem.DataSource = interfazNegocioBitacora.obtenerLogSystem();
+                //this.GridViewLogSystem.DataSource = interfazNegocioBitacora.obtenerLogSystem();
                 // 2 - MUESTRO LOS ERRORES CRITICOS DEL SISTEMA
                 this.GridViewLogSystem.DataBind();
             }

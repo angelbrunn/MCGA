@@ -9,3 +9,13 @@ C:\Users\B042921\Desktop\wks\MotoPoint\DAL\obj\Debug\DAL.csproj.CoreCompileInput
 C:\Users\B042921\Desktop\wks\MotoPoint\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\B042921\Desktop\wks\MotoPoint\DAL\obj\Debug\DAL.dll
 C:\Users\B042921\Desktop\wks\MotoPoint\DAL\obj\Debug\DAL.pdb
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\DAL\bin\Debug\DAL.dll
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\DAL\bin\Debug\DAL.pdb
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\DAL\bin\Debug\BE.dll
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\DAL\bin\Debug\EL.dll
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\DAL\bin\Debug\BE.pdb
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\DAL\bin\Debug\EL.pdb
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\DAL\obj\Debug\DAL.dll
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\DAL\obj\Debug\DAL.pdb

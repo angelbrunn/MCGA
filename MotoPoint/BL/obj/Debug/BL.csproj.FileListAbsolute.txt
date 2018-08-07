@@ -9,3 +9,13 @@ C:\Users\B042921\Desktop\wks\MotoPoint\BL\obj\Debug\BL.csproj.CoreCompileInputs.
 C:\Users\B042921\Desktop\wks\MotoPoint\BL\obj\Debug\BL.csproj.CopyComplete
 C:\Users\B042921\Desktop\wks\MotoPoint\BL\obj\Debug\BL.dll
 C:\Users\B042921\Desktop\wks\MotoPoint\BL\obj\Debug\BL.pdb
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\BL\bin\Debug\BL.dll
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\BL\bin\Debug\BL.pdb
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\BL\bin\Debug\BE.dll
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\BL\bin\Debug\EL.dll
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\BL\bin\Debug\BE.pdb
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\BL\bin\Debug\EL.pdb
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\BL\obj\Debug\BL.dll
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\BL\obj\Debug\BL.pdb
+C:\Users\angel\Documents\wks_microsoft\MCGA\MotoPoint\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache

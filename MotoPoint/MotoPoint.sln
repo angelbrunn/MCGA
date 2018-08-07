@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27428.2037
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotoPoint", "MotoPoint\MotoPoint.csproj", "{269F7E1F-F254-4DCF-B1AA-9CE4580401A9}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{CFCF2657-FEBF-4B19-B04F-277A0A94D97B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "BL\BL.csproj", "{A15D7C72-9C0E-4600-8098-E8B2DF081CC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALTU", "DALTU\DALTU.csproj", "{625290E7-174F-40E0-9A56-474EB26DFE5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{A15D7C72-9C0E-4600-8098-E8B2DF081CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A15D7C72-9C0E-4600-8098-E8B2DF081CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A15D7C72-9C0E-4600-8098-E8B2DF081CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625290E7-174F-40E0-9A56-474EB26DFE5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625290E7-174F-40E0-9A56-474EB26DFE5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625290E7-174F-40E0-9A56-474EB26DFE5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625290E7-174F-40E0-9A56-474EB26DFE5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
